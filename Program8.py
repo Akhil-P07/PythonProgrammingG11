@@ -11,7 +11,7 @@ for i in range(n - 2):
     a = b
     b = c
 print('')
-print("Here is your sequence of", n, "numbers :)")
+print("Here is your fibonacci sequence of", n, "numbers :)")
 
     
     
