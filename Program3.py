@@ -1,3 +1,4 @@
+#Multi-Operation Calculator
 a = int(input("Enter first num: "))
 b = int(input("Enter second num: "))
 print("Note:\nTo add use: +\nTo Subtract use: -\nTo multiply use: * \nTo Divide use: /\n")

@@ -1,3 +1,4 @@
+#Addition and subtraction only
 num1 = int(input("Enter 1stNum: "))
 num2 = int(input("Enter 2nd Num: "))
 oper = input("Enter operation: ")
