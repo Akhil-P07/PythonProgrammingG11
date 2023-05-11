@@ -1,16 +1,17 @@
-#0,1,1,2,3,5,8,13,21,34
+#Prints fibonacci series of numbers set
 n = int(input("Max number of elements in series: "))
 a = 0
 b = 1
 c = 0
-print(a)
-print(b)
+print(str(a) +", " + str(b), end = ", ")
 for i in range(n - 2):
     c = a + b
-    print(c)
+    if (i == n - 3):
+        print(c)
+    else:
+        print(c, end=", ")
     a = b
     b = c
-print('')
 print("Here is your fibonacci sequence of", n, "numbers :)")
 
     
