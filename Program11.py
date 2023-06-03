@@ -3,7 +3,7 @@ import random
 mxGuess = 10 #Set maximum number of guesses here
 num = random.randint(1, 101)
 check = 1
-print("Welcome to @YourMamaGae2007's Guessing Game")
+print("Welcome to Akhil's Guessing Game")
 for i in range(mxGuess):
     guess = int(input("Enter guess: "))
     if(guess == num):
