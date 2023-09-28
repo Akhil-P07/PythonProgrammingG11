@@ -1,18 +1,11 @@
-#Prints fibonacci series of numbers set
-n = int(input("Max number of elements in series: "))
+#Prints the fibonacci sequence until the last set number eg. 0,1,1,2,3,5,8,13
+max = int(input("Enter the largest no. in the fibonacci sequence: "))
 a = 0
 b = 1
-c = 0
-print(str(a) +", " + str(b), end = ", ")
-for i in range(n - 2):
-    c = a + b
-    if (i == n - 3):
-        print(c)
-    else:
-        print(c, end=", ")
-    a = b
-    b = c
-print("Here is your fibonacci sequence of", n, "numbers :)")
+while (b < max):
+    print(a,b,end=" ")
+    a += b
+    b += a
 
-    
+
     
