@@ -1,5 +1,5 @@
 #Program checks whether if a inputted year is a leap or not
-print("Note: To enter Year in BCE type it as a negative equivalent number", end='\n' "      Do not type BCE, CE, AD or BC at the end of year")
+print("Note: To enter Year in BCE or BC type it as a negative equivalent number", end='\n' "      Do not type BCE, CE, AD or BC at the end of year")
 print(" ")
 yr = int(input("Enter year: "))
 a = yr % 4
