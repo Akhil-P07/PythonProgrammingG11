@@ -1,7 +1,7 @@
 import random
 print("Welcome to lottery simulator!")
 turns = 3 #Set turns
-spin_time = 2000 #Lottery timer Recommended: 2000 above
+spin_time = 1 #Lottery timer Recommended: 2000 above
 match = int(input("Press 1 to begin match or 0 to quit: "))
 score = dict()
 while(match == 1):
@@ -31,7 +31,6 @@ while(match == 1):
         print("You have %i turns left"%(score[name]["Turns"])) 
     print("Out of turns :(\n")
     match = int(input("Press 1 to begin match or 0 to quit: "))
-
 #Prints scores of all players
 print("===========SCOREBOARD===========")
 for name in score:
