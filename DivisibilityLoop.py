@@ -1,9 +1,11 @@
 x = int(input("Enter num: "))
+a = list()
+for i in range(1, x):
+  if(x % i == 0):
+    a.append(i)
+print("The Following numbers divide %i: "%(x))
 
-a = range(1, 11)
-
-print("Numbers divisible by ", x, " are the following: ")
-
-for i in a:
-  if (i % x == 0):
-    print(i)
+for j in a:
+  print(j, end=", ")
+print(x)
+ 
